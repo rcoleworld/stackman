@@ -1,2 +1,2 @@
 # stackman
-# will probably change name to stackwoman 
+This will be a command line tool that will generate containerized webstack templates.
