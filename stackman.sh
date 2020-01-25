@@ -19,7 +19,11 @@ function stackman() {
     case $stack_choice in
         1)
             echo "You chose MERN"
-            svn checkout https://github.com/rcoleworld/stackman-templates/trunk/mernstack
+            svn checkout https://github.com/rcoleworld/stackman-templates/trunk/mernstack 
+            npm install --prefix ./mernstack/api 
+            echo "API dependencies finished installing!"
+            npm install --prefix ./mernstack/client
+            echo "Client dependencies finished installing!"
             ;;
         2)
             echo "You chose MEAN"
