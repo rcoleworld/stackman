@@ -1,4 +1,6 @@
 ![](./images/stackman.png)\
+
+
 Stackman is a simple command line tool that downloads containerized, popular webstacks. 
 Templates downloaded from: https://github.com/rcoleworld/stackman-templates
 
@@ -21,7 +23,7 @@ $ vim ~/.bashrc
 ```
 ## or
 ```
-$ vim ~/.bashrc
+$ vim ~/.zshrc
 ```
 ## Add this to the .rc file:
 ```
