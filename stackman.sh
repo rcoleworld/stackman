@@ -23,9 +23,9 @@ __welcome_msg() {
         "
 
     echo "[1] (MERN) MongoDB, ExpressJS, ReactJS, NodeJS"
-    echo "[2] (MEAN) MongoDB, ExpressJS, AngularJS, NodeJS"
-    echo "[3] (MEVN) MongoDB, ExpressJS, VueJS, NodeJS"
-    echo "[4] (LAMPY) Linux, Apache, MySQL Python"
+    # echo "[2] (MEAN) MongoDB, ExpressJS, AngularJS, NodeJS"
+    # echo "[3] (MEVN) MongoDB, ExpressJS, VueJS, NodeJS"
+    # echo "[4] (LAMPY) Linux, Apache, MySQL Python"
     echo "Any other key to exit"
 }
 
@@ -72,15 +72,15 @@ stackman() {
         1)
             __mern
             ;;
-        2)
-            __mean
-            ;;
-        3)
-            __mevn
-            ;;
-        4)
-            __lampy
-            ;;
+        # 2)
+        #     __mean
+        #     ;;
+        # 3)
+        #     __mevn
+        #     ;;
+        # 4)
+        #     __lampy
+        #     ;;
         *)
             echo "Exited"
             ;;
