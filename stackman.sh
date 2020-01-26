@@ -22,7 +22,7 @@ function stackman() {
             svn checkout https://github.com/rcoleworld/stackman-templates/trunk/mernstack 
             npm install --prefix ./mernstack/api 
             echo "API dependencies finished installing!"
-            npm install --prefix ./mernstack/client
+            npm install --prefix ./mernstack/frontend
             echo "Client dependencies finished installing!"
             ;;
         2)

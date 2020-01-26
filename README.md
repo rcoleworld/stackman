@@ -1,7 +1,7 @@
 ![](./images/stackman.png)\
 Stackman is a command line tool. That downloads containerized webstacks.
 Templates downloaded from: https://github.com/rcoleworld/stackman-templates
-### Must have svn and npm
+### Must have svn, npm, and docker.
 ## To install:
 ```
 $ git clone https://github.com/rcoleworld/stackman.git
