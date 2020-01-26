@@ -10,7 +10,6 @@ __project_created() {
                 _/ |                                                     
                 |__/                                                      
     "
-    
 }
 
 __welcome_msg() {
@@ -29,6 +28,7 @@ __welcome_msg() {
     echo "[4] (LAMPY) Linux, Apache, MySQL Python"
     echo "Any other key to exit"
 }
+
 __mern() {
     echo "You chose MERN"
     svn checkout https://github.com/rcoleworld/stackman-templates/trunk/mernstack
