@@ -10,9 +10,9 @@ function stackman() {
     "
 
     echo "[1] (MERN) MongoDB, ExpressJS, ReactJS, NodeJS"
-    echo "[2] (MEAN) MongoDB, ExpressJS, AngularJS, NodeJS"
-    echo "[3] (MEVN) MongoDB, ExpressJS, VueJS, NodeJS"
-    echo "[4] Custom"
+    # echo "[2] (MEAN) MongoDB, ExpressJS, AngularJS, NodeJS"
+    # echo "[3] (MEVN) MongoDB, ExpressJS, VueJS, NodeJS"
+    # echo "[4] Custom"
 
     read stack_choice
 
@@ -25,15 +25,15 @@ function stackman() {
             npm install --prefix ./mernstack/frontend
             echo "Client dependencies finished installing!"
             ;;
-        2)
-            echo "You chose MEAN"
-            ;;
-        3)
-            echo "You chose MEVN"
-            ;;
-        4)
-            echo "You chose custom"
-            ;;
+        # 2)
+        #     echo "You chose MEAN"
+        #     ;;
+        # 3)
+        #     echo "You chose MEVN"
+        #     ;;
+        # 4)
+        #     echo "You chose custom"
+        #     ;;
         *)
             echo "Invalid choice"
             ;;

@@ -1,8 +1,0 @@
-mongo:
-    container_name: mongo
-    image: mongo:latest
-    networks: 
-        - backend
-
-    volumes:
-        - ./mongo-database:/data/db
