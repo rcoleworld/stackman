@@ -1,4 +1,4 @@
-![](./images/stackman.png)\
+![](./images/stackman.png)
 
 
 Stackman is a simple command line tool that downloads containerized, popular webstacks. 
