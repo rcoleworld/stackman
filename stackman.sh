@@ -79,7 +79,7 @@ stackman() {
             __mevn
             ;;
         4)
-            __laby
+            __lampy
             ;;
         *)
             echo "Exited"
