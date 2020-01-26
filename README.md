@@ -29,3 +29,9 @@ $ vim ~/.zshrc
 ```
 source "filepath"/stackman.sh
 ```
+
+## To use
+```
+$ cd "directory to make project"
+$ stackman
+```
