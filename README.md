@@ -19,6 +19,9 @@ $ git clone https://github.com/rcoleworld/stackman.git
 ```
 ## To setup:
 ```
+$ chmod +x stackman.sh
+```
+```
 $ vim ~/.bashrc
 ```
 ## or
