@@ -10,6 +10,16 @@ __project_created() {
         | |  | || |___| |\\ \\| |\\  | /\\__/ / | || | | | \__/\\| |\\  \\
         \\_|  |_/\\____/\\_| \\_\\_| \\_/ \\____/  \\_/\\_| |_/\\____/\\_| \\_/                                                  
         "
+        ;;
+    "flask")
+        echo "
+        ______ _           _    
+        |  ___| |         | |   
+        | |_  | | __ _ ___| | __
+        |  _| | |/ _\` / __| |/ /
+        | |   | | (_| \\__ \   < 
+        \\_|   |_|\\__,_|___/_|\\_\
+        "
     esac
 }
 
@@ -24,6 +34,7 @@ __welcome_msg() {
         "
 
     echo "[1] (MERN) MongoDB, ExpressJS, ReactJS, NodeJS"
+    echo "[2] Simple flask web application"
     # echo "[2] (MEAN) MongoDB, ExpressJS, AngularJS, NodeJS"
     # echo "[3] (MEVN) MongoDB, ExpressJS, VueJS, NodeJS"
     # echo "[4] (LAMPY) Linux, Apache, MySQL Python"
@@ -46,8 +57,20 @@ __mern() {
     echo "Project Name: "
     read project_name
     mv mernstack $project_name
-    clear
     __project_created "mern"
+}
+
+__flsk() {
+    echo "You chose flask"
+    svn checkout https://github.com/rcoleworld/stackman-templates/trunk/simpleflaskserver
+    clear
+    echo "Folder downloaded!"
+    git init ./simpleflaskserver
+    clear
+    echo "Project Name: "
+    read project_name
+    mv simpleflaskserver $project_name
+    __project_created "flask"
 }
 
 __mean() {
@@ -73,9 +96,9 @@ stackman() {
         1)
             __mern
             ;;
-        # 2)
-        #     __mean
-        #     ;;
+        2)
+            __flsk
+            ;;
         # 3)
         #     __mevn
         #     ;;

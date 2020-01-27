@@ -35,11 +35,11 @@ source ./stackman.sh
 $ stackman
 ```
 
-## Supported Stacks
+## Full Supported Stacks
 - [X] MERN
 - [ ] MEAN
 - [ ] MEVN
-- [ ] LAMPy
+- [ ] LAMP
 
 ## Contact
 [Reginald Thomas](mailto:reginaldcolethomas@gmail.com)
