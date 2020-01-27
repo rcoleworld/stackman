@@ -37,9 +37,8 @@ $ stackman
 
 ## Full Supported Stacks
 - [X] MERN
-- [ ] MEAN
-- [ ] MEVN
-- [ ] LAMP
 
+## Smaller Technologies
+- [X] Flask 
 ## Contact
 [Reginald Thomas](mailto:reginaldcolethomas@gmail.com)
